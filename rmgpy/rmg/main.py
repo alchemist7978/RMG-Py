@@ -82,7 +82,6 @@ from rmgpy.rms import RMSWriter
 from rmgpy.rmg.reactors import Reactor
 from rmgpy.cantera_ import CanteraWriter
 from rmgpy.yml_test import YAMLWriter
-from rmgpy.cantera import CanteraWriter
 
 ################################################################################
 
@@ -726,7 +725,6 @@ class RMG(util.Subject):
 
         self.attach(ChemkinWriter(self.output_directory))
         self.attach(RMSWriter(self.output_directory))
-        self.attach(CanteraWriter(self.output_directory))
         self.attach(YAMLWriter(self.output_directory))
         self.attach(CanteraWriter(self.output_directory))
 
