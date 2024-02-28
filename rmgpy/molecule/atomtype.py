@@ -243,6 +243,7 @@ ATOMTYPES = {}
 ATOMTYPES['Rx']    = AtomType(label='Rx', generic=[], specific=[
     'H',
     'R!H',
+    'Rx!H',
     'R!H!Val7',
     'Val4','Val5','Val6','Val7',
     'He','Ne','Ar',
