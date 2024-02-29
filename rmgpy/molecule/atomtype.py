@@ -349,7 +349,7 @@ ATOMTYPES['Val7'] = AtomType(label='Val7', generic=['R', 'R!H', 'Rx', 'Rx!H'], s
     'I','I1s',
     'F','F1s'])
 
-ATOMTYPES['H'] = AtomType('H', generic=['R'], specific=[])
+ATOMTYPES['H'] = AtomType('H', generic=['Rx','R'], specific=[])
 
 ATOMTYPES['He'] = AtomType('He', generic=['R', 'R!H', 'R!H!Val7', 'Rx', 'Rx!H'], specific=[])
 ATOMTYPES['Ne'] = AtomType('Ne', generic=['R', 'R!H', 'R!H!Val7', 'Rx', 'Rx!H'], specific=[])
